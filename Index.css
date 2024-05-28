@@ -1,0 +1,36 @@
+header {
+    background-color: pink;
+    padding: 10px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header ul li {
+    background-color: white;
+    padding: 10px 10px;
+    color: pink;
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 200px;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
