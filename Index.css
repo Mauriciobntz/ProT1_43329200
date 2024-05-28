@@ -25,7 +25,6 @@ header ul li {
 
 section {
     text-align: center;
-    padding: 200px;
 }
 
 footer {
@@ -33,4 +32,51 @@ footer {
     padding: 20px;
     text-align: center;
     color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+article {
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+article h2 {
+    color: #ff69b4;
+    margin-top: 10px;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+
+article p:last-child {
+    color: #ff69b4; 
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
 }
