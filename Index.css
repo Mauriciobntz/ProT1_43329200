@@ -21,6 +21,12 @@ header ul li {
     color: pink;
     display: inline;
     margin-right: 20px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-decoration-color: palevioletred;
 }
 
 section {
@@ -79,4 +85,8 @@ article p:last-child {
 
 div {
     text-align: center;
+}
+
+nav img {
+    max-width: 3%;
 }
